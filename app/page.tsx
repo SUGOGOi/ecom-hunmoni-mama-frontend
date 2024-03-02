@@ -15,11 +15,14 @@ const page = () => {
       <div className={style.carousel}>
         <Carousel autoPlay={true} infiniteLoop={true} emulateTouch={true}  showStatus={false}  showArrows={false} showThumbs={false}  > 
           <div >
-            <Image src={carouselPhoto1}  height={400} alt="image" />
+            <Image src={carouselPhoto1}  height={380} alt="image" />
         </div>
-        <div > <Image src={carouselPhoto2}   height={400}  alt="image" /></div>
-        <div > <Image src={carouselPhoto3}  height={400}  alt="image" /></div>
+        <div > <Image src={carouselPhoto2}   height={380}  alt="image" /></div>
+        <div > <Image src={carouselPhoto3}  height={380}  alt="image" /></div>
         </Carousel>
+      </div>
+      <div className={style.bestSeller}>
+
       </div>
     </div>
   )
