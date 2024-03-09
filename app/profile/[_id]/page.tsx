@@ -1,8 +1,9 @@
 import React from 'react'
+import style from "./page.module.scss"
 
 const page = () => {
   return (
-    <div>page</div>
+    <div className={style.container} ></div>
   )
 }
 

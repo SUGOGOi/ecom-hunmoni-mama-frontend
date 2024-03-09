@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel"
 import carouselPhoto1  from "../public/images/carousel2.jpg"
 import carouselPhoto2  from "../public/images/carousel3.jpg"
 import carouselPhoto3 from "../public/images/carousel4.jpg"
+import Link from "next/link";
 
 import Image from "next/image"
 
@@ -21,9 +22,11 @@ const page = () => {
         <div > <Image src={carouselPhoto3}  height={380}  alt="image" /></div>
         </Carousel>
       </div>
-      <div className={style.bestSeller}>
-
-      </div>
+      <div className={style.categorymain}>
+        <div className={style.category}>
+          
+        </div>
+        </div>
     </div>
   )
 }

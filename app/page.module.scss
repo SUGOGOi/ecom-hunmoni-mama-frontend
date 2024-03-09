@@ -5,12 +5,26 @@ $bg: rgb(12, 17, 22);
   width: 100%;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   // border: 1px solid red;
+  flex-direction: column;
   .carousel {
     width: 90%;
     height: 380px;
     // border: 1px solid red;
+  }
+  .bestSeller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    .bestSellerTitle {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+    }
   }
 }
