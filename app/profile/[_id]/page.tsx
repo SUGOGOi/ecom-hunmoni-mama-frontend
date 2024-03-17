@@ -1,10 +1,10 @@
 import React from 'react'
 import style from "./page.module.scss"
 
-const page = () => {
+const profilePage = () => {
   return (
     <div className={style.container} ></div>
   )
 }
 
-export default page
+export default profilePage
