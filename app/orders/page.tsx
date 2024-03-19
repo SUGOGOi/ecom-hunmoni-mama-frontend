@@ -1,12 +1,12 @@
 import Navbar from '@/components/shared/navbar/navbar'
 import React from 'react'
 
-const Searchpage = () => {
+const page = () => {
   return (
-    <div>
-      <Navbar/>
+      <div>
+          <Navbar/>
     </div>
   )
 }
 
-export default Searchpage
+export default page
