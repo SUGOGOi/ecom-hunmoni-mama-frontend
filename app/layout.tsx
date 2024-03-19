@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
-import { Suspense } from "react";
-import Loading from "../components/shared/loading/loading";
-// import TopLoadingbar from "@/components/shared/top-loading-bar/topbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
