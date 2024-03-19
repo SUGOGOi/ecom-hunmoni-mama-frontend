@@ -5,13 +5,13 @@ import { Carousel } from "react-responsive-carousel";
 import carouselPhoto1 from "../public/images/carousel2.jpg";
 import carouselPhoto2 from "../public/images/carousel3.jpg";
 import carouselPhoto3 from "../public/images/carousel4.jpg";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Navbar from "@/components/shared/navbar/navbar";
 
 const page = () => {
-  const pathname = usePathname();
-  const dashboard = pathname.split("/dash");
+  // const pathname = usePathname();
+  // const dashboard = pathname.split("/dash");
 
   return (
     <>
